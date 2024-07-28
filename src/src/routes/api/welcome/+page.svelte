@@ -12,7 +12,7 @@
 			<br /><br />
 			Example:
 			<span style="font-family: monospace, sans-serif;"
-				>https://am-i-paid.vercel.app/api/[clientName]</span
+				>https://am-i-paid.vercel.app/api?client=[clientName]</span
 			>
 		</p>
 	</div>
