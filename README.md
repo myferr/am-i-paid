@@ -22,18 +22,18 @@ In this TypeScript example it checks if the client `Myfer` has paid for their we
 
 ```ts
 function blockWebsite() {
-  console.log("No payment!");
+  console.log("No payment!");
 }
 
-fetch("http://localhost:5173/api?client=Myfer")
-  .then((data) => {
-    return data.json();
-  })
-  .then((post) => {
-    if (!post.paid) {
-      blockWebsite();
-    }
-  });
+fetch("http://am-i-paid.vercel.app/api?client=Myfer")
+  .then((data) => {
+    return data.json();
+  })
+  .then((post) => {
+    if (!post.paid) {
+      blockWebsite();
+    }
+  });
 ```
 
 ## Contributing to the project
