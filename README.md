@@ -14,7 +14,7 @@
 > [!NOTE]
 > The `paid` value is manually inserted by [Myfer](https://github.com/myferr/)
 
-By using the fetch API and fetching `https://am-i-paid.vercel.app/api?client=[clientName]` and replacing `[clientName]` with a name provided in [clients.ts](https://github.com/myferr/am-i-paid/blob/main/src/src/clients.ts) it will return a boolean value named `paid`, which is also provided under a client name in [clients.ts](https://github.com/myferr/am-i-paid/blob/main/src/src/clients.ts)
+By using the fetch API and fetching `https://am-i-paid.vercel.app/api?client=[clientName]` and replacing `[clientName]` with a name provided in [clients.ts](https://github.com/myferr/am-i-paid/blob/main/src/src/lib/clients.ts) it will return a boolean value named `paid`, which is also provided under a client name in [clients.ts](https://github.com/myferr/am-i-paid/blob/main/src/src/lib/clients.ts)
 
 ## Example of Use
 
