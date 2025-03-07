@@ -1,3 +1,6 @@
+> [!IMPORTANT]
+> This was a test project for a challenge to see if I could make an API, a site that could post data that could be received by `fetch()`
+
 ![](banner.png)
 
 > [!WARNING]
